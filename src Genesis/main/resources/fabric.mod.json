@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bohema",
+  "version": "7",
+  "name": "Genesis",
+  "description": "Genesis",
+  "id": "genesis",
+  "version": "0.7",
+  "name": "§kд§rGenesis§kз§r",
+  "description": "§kд§rGenesis§kз§r",
+  "authors": [
+    "LifeHacker125132(раб)",
+    "MamaHacker",
+    "tesak(пидор)"
+  ],
+  "icon": "assets/Genesis/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "genesis.team.addon.Genesis"
+    ]
+  },
+  "mixins": [
+    "genesis.mixins.json"
+  ],
+  "accessWidener": "Genesis.aw",
+  "custom": {
+    "meteor-client:color": "225,0,0"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.2",
+    "meteor-client": "0.5.1"
+  }
+}

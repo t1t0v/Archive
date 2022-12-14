@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "naturalism.addon.netherbane.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MinecraftClientMixin",
+    "MixinClientPlayerEntity",
+    "MixinTitleScreen",
+    "HeldItemRendererMixin",
+    "FirstPersonRendererAccessor",
+    "AccessorHeldItemRenderer",
+    "ScreenMixin",
+    "MixinHandledScreen",
+    "TotemParticleMixin",
+    "IPlayerMovePacket",
+    "EnchantMixin",
+    "PositionHudMixin",
+    "IPlayerMoveC2SPacket",
+    "ITimer",
+    "ModuleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "alliance",
+  "version": "${version}",
+  "name": "Alliance",
+  "description": "The best meteor addon.",
+  "authors": [
+    "killerfm",
+    "Indra",
+    "pig",
+    "imptovski",
+    "titov",
+    "titovv",
+    "tesak"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.Addon"
+    ]
+  },
+  "mixins": [
+    "addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}

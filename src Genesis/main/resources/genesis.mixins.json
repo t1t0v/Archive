@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "genesis.team.addon.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AccessorHeldItemRenderer",
+    "VillagerEntityAccessor",
+    "HandledScreenAccessor",
+    "ChatUtilsMixin",
+    "MinecraftClientAccessor",
+    "MixinHandledScreen",
+    "ClientPlayerInteractionManagerAccessor2",
+    "FirstPersonRendererAccessor",
+    "HeldItemRendererMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "IPlayerMoveC2SPacket",
+    "ITimer",
+    "IPlayerMovePacket",
+    "MincraftClientMixin",
+    "MixinClientPlayerEntity",
+    "MixinHandledScreen",
+    "ResourceManagerMixin",
+    "AccessorHeldItemRenderer",
+    "ScreenMixin",
+    "ToggleMixin"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "netherbane",
+  "version": "0",
+  "name": "NetherBane",
+  "description": "An addon for the Meteor.",
+  "authors": [
+    "Naturalism"
+  ],
+  "contact": {
+    "repo": "Naturalism#9888"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "naturalism.addon.netherbane.NetherBane"
+    ]
+  },
+  "mixins": [
+    "nb.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
